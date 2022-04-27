@@ -12,8 +12,8 @@ public class Main {
 		contaDoAllas.setTitular(allas);
 		
 		allas.setNome("Allas");
-		allas.setCpf("352.142.568-17");
-		allas.setProfissao("Mini Pekka");
+		allas.setCpf("123.423.423-42");
+		allas.setProfissao("Desenvolvedor");
 		
 		System.out.println(contaDoAllas.getTitular().getCpf());
 		
