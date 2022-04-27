@@ -3,7 +3,6 @@ public class Main {
 	public static void main(String[] args) {
 		Conta contaDoAllas = new Conta(1332, 329402);
 		
-		// O problema aqui é o valor default da agência e número, que são 0 para ambos, oque vai contra a 'regra de negócios da empresa'
 		
 		System.out.println(contaDoAllas.getNumber());
 		System.out.println(contaDoAllas.getAgencia());
@@ -18,7 +17,7 @@ public class Main {
 		
 		System.out.println(contaDoAllas.getTitular().getCpf());
 		
-		contaDoAllas.getTitular().setProfissao("Programador");             // << Você pode alternar entre get e set
+		contaDoAllas.getTitular().setProfissao("Programador");
 		
 		System.out.println(contaDoAllas.getTitular().getProfissao());
 		
